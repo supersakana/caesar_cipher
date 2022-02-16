@@ -1,5 +1,3 @@
-# ruby ./script.rb
-
 def caesar(str, number)
     lower_alpha = ('a'..'z').to_a 
     upper_alpha = ('A'..'Z').to_a 
@@ -16,5 +14,3 @@ def caesar(str, number)
     end
     puts code.join('')
   end
-  
-    caesar("My name is ~ Stranger !", 1)
