@@ -8,10 +8,9 @@ def caesar(str, number)
   code = []
 
   str.split('').each do |char|
-    if (lower_alpha.include? char) || (upper_alpha.include? char)
-      code.push(number + char.ord)
-    else code.push(char)
-    end
+    (lower_alpha.include? char) || (upper_alpha.include? char) ? 
+    code.push(number + char.ord) : 
+    code.push(char)
   end
   puts code
 end
