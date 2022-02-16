@@ -1,1 +1,1 @@
-Intro to ruby programming problem through The Odin Project
+Intro to ruby programming. Problem through The Odin Project
