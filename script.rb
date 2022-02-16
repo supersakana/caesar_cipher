@@ -3,13 +3,12 @@ require 'pry-byebug'
 # binding.pry
 
 def caesar(str, number)
-  lower_alphabet = ('a'..'z').to_a 
-  upper_alphabet = ('A'..'Z').to_a
-  string = str.split('')
+  lower_alpha = ('a'..'z').to_a 
+  upper_alpha = ('A'..'Z').to_a
   code = []
 
-  string.each do |char|
-    if (lower_alphabet.include? char) || (upper_alphabet.include? char)
+  str.split('').each do |char|
+    if (lower_alpha.include? char) || (upper_alpha.include? char)
       code.push(number + char.ord)
     else code.push(char)
     end
