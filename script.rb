@@ -12,5 +12,9 @@ def caesar(str, number)
       code.push(char)
     end
   end
-  puts code.join('')
+  code.join('')
+end
+
+def test
+  'it works'
 end
